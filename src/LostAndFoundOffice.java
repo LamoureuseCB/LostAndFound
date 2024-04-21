@@ -15,7 +15,7 @@ public class LostAndFoundOffice {
 
     public boolean check(Object target) {
         if (target == null) {
-            System.out.println("Не указан предмет");
+            System.out.println("Не указан предмет для поиска в бюро находок");
             return false;
         }
         for (Object object : things) {
